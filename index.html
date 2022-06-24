@@ -9,7 +9,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-
+  
   <nav class="navbar navbar-inverse">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -17,14 +17,23 @@
       </div>
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Sobre nós</a></li>
+        <li><a href="#">Quem somos</a></li>
         <li><a href="#">Entrevistas</a></li>
+        <li><a href="#">Quizz</a></li>
       </ul>
+      <form class="navbar-form navbar-left" action="/action_page.php">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="O que procura?" name="search">
+        </div>
+        <button type="submit" class="btn btn-default">Buscar</button>
+      </form>
+    </div>
   </nav>
+  
 
 <div class="jumbotron text-center">
   <h1>OBJETIVOS DE DESENVOLVIMENTO SUSTENTÁVEL</h1>
-  <h2>IGUALDADE DE GÊNERO</h2>
+    <h2>IGUALDADE DE GÊNERO</h2>
 </div>
   
 <div class="container">
@@ -48,19 +57,58 @@
 </div>
 
 <div class="container">
-  <h2>Entrevistas</h2>
-  <h4>Conversamos com 3 mulheres sobre como foi o processo de transição de carreira profissional para a área de Tecnologia.</h4>
-  
-  <!-- Left-aligned media object -->
-  <div class="media">
-    <div class="media-left">
-      <img src="img/WhatsApp Image 2022-06-18 at 11.50.43.jpeg" class="media-object" style="width:90px">
-    </div>
-    <div class="media-body">
-      <h4 class="media-heading">Ariana Neto de Castro, 37, casada, mãe do João, analista de QA há 1 ano.</h4>
-    </div>
+  <h3>MulheresEmTech entrevistou 3 mulheres, sobre <strong> o processo de transição de carreira profissional</strong> para a área de Tecnologia.</h3>
+  <div class="card bg-primary"></div>
+  <p><strong>Ariana Neto de Castro,</strong> 37 anos, casada e mãe do João e analista de QA há 1 ano.</p>
+  <div class="card-deck">
+        <p class="card-text"><p>Formada em Letras, sua última ocupação foi como analista de conteúdo, diz que o que motivou a mudar de área foi a quantidade de vagas disponíveis na Área de Tecnologia.</p>
+        <p class="card-text">O maior desafio é porque sou da área de humanas, então tive uma certa dificuldade com lógica de programação.</p>
+        <p class="card-text">Pensei em desistir quando sentia dificuldade de fazer um código, isso enquanto estava estudando. Depois que entrei no mercado, eu não pensei um só dia.</p>
+        <p class="card-text">O meu conselho para quem está iniciando na área é: Só vem, todo mundo é capaz de aprender algo novo. E com o pensamento de que será uma eterna (ou eterno) aprendiz.</p>
+        <p class="card-text">Entrei numa fase onde o movimento era aumentar mulher na área, mas ainda assim, de forma muito velada a gente percebe que alguns tratam com diferença, até que você se imponha e daí fica tudo certo.</p>
+        <p class="card-text">O meu objetivo é aumentar minha senioridade a princípio, mas não me vejo especialista e nem cuidando de pessoas.</p>
+        <p class="card-text">Para voê que quer aprender a programar tem os seguintes canais/cursos: Curso em Vídeo do Guanabara, QA Ninja, Júlio de Lima, Udemy. Recode, Programaria e Dio.</p>
+      </div>
   </div>
-  <hr>
+</div>  
+<br>
+<div class="container">
+  <div class="card bg-primary"></div>
+  <p><strong>Danusa Gianpietro Szot Costa,</strong> 37 anos, casada, mãe de uma menina e desenvolvedora Mobile há 06 meses</p>
+  <div class="card-deck">
+        <p class="card-text"><p>Formada em Serviço Social, não queria mais continuar na área de Humanas e a maior dificuldade que eu sentiu é a entrada de júniores no mercado.</p>
+        <p class="card-text">Durante o processo não pensei em desistir, porque não sou uma pessoa de motivações, sou mais de preciso fazer isso e então vou fazer.</p>
+        <p class="card-text">O meu conselho para as mulheres que estão iniciando: Pode vir que a água é melhor desse lado, mulherada!</p>
+        <p class="card-text">Apesar de ser um desafio maior para as mulheres entrarem na área de tecnologia, me vejo ganhando muito bem e expert na linguagem Kotlin, trabalhando para fora.</p>
+        <p class="card-text">A minha dica é: Fique atenta ao LinkedIn.</p>
+      </div>
+  </div>
+</div> 
 
+<br>
+<div class="container">
+  <div class="card bg-primary"></div>
+  <p><strong>Danielle Dias da Silva Fragoso,</strong> 35 anos, casada, 1 filha e Analista de Qualidade 6 anos.</p>
+  <div class="card-deck">
+        <p class="card-text"><p>Eu era técnica de enfermagem, uma área pouco valorizada e que tem uma carga emocional negativa muito grande.</p>
+        <p class="card-text">Cursar uma faculdade de tecnologia, exercendo a carreira de enfermagem (humanas) além de precisar mudar totalmente a forma de pensar 
+        para adaptar aos pensamentos lógicos, conciliar plantões, casa, casamento e estudos foi bem complicado e também por ser uma área que temos que estudar muito</p>
+        <p class="card-text">Pensei em desistir enquanto fazia a faculdade, mas como minha motivação era mudar de área, me arrependo de não ter feito isso antes.</p>
+        <p class="card-text">O mercado de trabalho ainda é muito preconceituoso quando se trata da carreira da mulher, muitos não acreditam na capacidade intelectual da mulher
+        para trabalhar nas áreas de lógica ou que mulheres mães, não são produtivas. Estamos aí, para provar que estão errados, mas precisamos nos qualificar, porque somos mais cobradas no dia a dia, mais sobrecarregadas e com menos tempo hábil de estudo,
+        somos frutos de uma sociedade patriarcal.</p>
+        <p class="card-text">Daqui a alguns anos, me vejo mais qualificada e com uma senioridade maior.</p>
+        <p class="card-text">As minhas indicações de cursos para a área de QA é o Julio de Lima (PTQS), você pode acompanhar através do canal YouTube e do Instagram e também tem o canal do Qazando, que tem um conteúdo de altíssima qualidade.</p>
+      </div>
+  </div>
+</div> 
+
+<div class="container">
+    <div class="panel panel-default">
+    <center><div class="panel-footer">MulheresEmTech &copy; 2022</div></center>
+  </div>
+</div>
 </body>
 </html>
+
+
